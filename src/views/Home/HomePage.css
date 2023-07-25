@@ -1,0 +1,22 @@
+
+.home-hero {
+    border: 1px solid red;
+    height: 40vw;
+    padding: 0 5vw;
+    background: #fff url(../../assets/img/home_bg01.jpg) no-repeat center;
+    background-size: cover;
+}
+.home-hero .left-area {
+    width: 50%;
+    background-color: rgba(250, 250, 210, 0.363);
+    display: flex;
+    flex-direction: column;
+}
+.home-hero .left-area h1 {
+    font-size: 2vw;
+    /* color: var(--p-colr); */
+}
+.home-hero .left-area p {
+    font-size: 1.2vw;
+    color: var(--s-colr);
+}
